@@ -21,32 +21,32 @@
 * all other keys are of type string
 
 
-### [https://backend-foodie-fun.herokuapp.com/api/auth/register]()
+### [https://build-week-foodiefun.herokuapp.com/api/auth/register]()
 * a POST request will register a new user. Will also provide a JSON Web Token. 
 * **Required:** username field and password field.
 
-### [https://backend-foodie-fun.herokuapp.com/api/auth/login]()
+### [https://build-week-foodiefun.herokuapp.com/api/auth/login]()
 * a POST request will login an already registered user. Will also provide a JSON Web Token. 
 * **Required:** username field and password field.
 
 
-### [https://backend-foodie-fun.herokuapp.com/api/meals/]()
+### [https://build-week-foodiefun.herokuapp.com/api/meals/]()
 * a GET request to this route will return a list of all the meals per user
 
-### [https://backend-foodie-fun.herokuapp.com/api/meals/id]()
+### [https://build-week-foodiefun.herokuapp.com/api/meals/id]()
 * a GET request to this route (with "id" replaced by the meal ID) will return the meal with the specified ID. Will only return specified ID if associated with user. 
 
-### [https://backend-foodie-fun.herokuapp.com/api/meals]()
+### [https://build-week-foodiefun.herokuapp.com/api/meals]()
 * a POST request to this route will return the meal object that is created for the logged in user.
 * **Required**: `item_name`
 * **Optional but recommended**: `restaurant_name,  restaurant_type, item_photo, food_rating, item_comment, wait_time, date_visited`
 
-### [https://backend-foodie-fun.herokuapp.com/api/meals/id]()
+### [https://build-week-foodiefun.herokuapp.com/api/meals/id]()
 * a PUT request to this route (with "id" replaced by the meal ID) will return the number of meals updated for the logged in user. 
 * **Required**: `item_name`
 * **Optional but recommended**: `restaurant_name,  restaurant_type, item_photo, food_rating, item_comment, wait_time, date_visited`
 
 
-### [https://backend-foodie-fun.herokuapp.com/api/meals/id]()
+### [https://build-week-foodiefun.herokuapp.com/api/meals/id]()
 * a DELETE request to this route (with "id" replaced by the meal ID) will return the number of meals deleted for the logged in user. 
 
