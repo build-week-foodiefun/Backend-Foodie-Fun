@@ -1,5 +1,7 @@
 # Backend-Foodie-Fun
 
+- Deployed API: https://build-week-foodiefun.herokuapp.com/
+
 ### A meal has this basic format: 
 >     {
 >         "id": 8,
